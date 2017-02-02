@@ -20,6 +20,7 @@
 /home/max/gaitech_ws/build/gtest/CMakeFiles/install/strip.dir
 /home/max/gaitech_ws/build/gtest/CMakeFiles/install/local.dir
 /home/max/gaitech_ws/build/gaitech/CMakeFiles/edit_cache.dir
+/home/max/gaitech_ws/build/gaitech/CMakeFiles/robot_cleaner_node_v4.dir
 /home/max/gaitech_ws/build/gaitech/CMakeFiles/install/local.dir
 /home/max/gaitech_ws/build/gaitech/CMakeFiles/robot_cleaner_node_v2.dir
 /home/max/gaitech_ws/build/gaitech/CMakeFiles/free_space_navigation_node.dir

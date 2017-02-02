@@ -257,6 +257,19 @@ gtest_main/fast:
 .PHONY : gtest_main/fast
 
 #=============================================================================
+# Target rules for targets named robot_cleaner_node_v4
+
+# Build rule for target.
+robot_cleaner_node_v4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 robot_cleaner_node_v4
+.PHONY : robot_cleaner_node_v4
+
+# fast build rule for target.
+robot_cleaner_node_v4/fast:
+	$(MAKE) -f gaitech/CMakeFiles/robot_cleaner_node_v4.dir/build.make gaitech/CMakeFiles/robot_cleaner_node_v4.dir/build
+.PHONY : robot_cleaner_node_v4/fast
+
+#=============================================================================
 # Target rules for targets named robot_cleaner_node_v2
 
 # Build rule for target.
@@ -1004,6 +1017,7 @@ help:
 	@echo "... test"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... robot_cleaner_node_v4"
 	@echo "... robot_cleaner_node_v2"
 	@echo "... free_space_navigation_node"
 	@echo "... talker_node"

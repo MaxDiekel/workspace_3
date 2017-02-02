@@ -166,6 +166,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+gaitech/CMakeFiles/robot_cleaner_node_v4.dir/rule:
+	cd /home/max/gaitech_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gaitech/CMakeFiles/robot_cleaner_node_v4.dir/rule
+.PHONY : gaitech/CMakeFiles/robot_cleaner_node_v4.dir/rule
+
+# Convenience name for target.
+robot_cleaner_node_v4: gaitech/CMakeFiles/robot_cleaner_node_v4.dir/rule
+
+.PHONY : robot_cleaner_node_v4
+
+# fast build rule for target.
+robot_cleaner_node_v4/fast:
+	cd /home/max/gaitech_ws/build && $(MAKE) -f gaitech/CMakeFiles/robot_cleaner_node_v4.dir/build.make gaitech/CMakeFiles/robot_cleaner_node_v4.dir/build
+.PHONY : robot_cleaner_node_v4/fast
+
+# Convenience name for target.
 gaitech/CMakeFiles/robot_cleaner_node_v2.dir/rule:
 	cd /home/max/gaitech_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gaitech/CMakeFiles/robot_cleaner_node_v2.dir/rule
 .PHONY : gaitech/CMakeFiles/robot_cleaner_node_v2.dir/rule
@@ -1167,6 +1182,33 @@ src/turtlesim/cleaning_app/robot_cleaner_v2.cpp.s:
 	cd /home/max/gaitech_ws/build && $(MAKE) -f gaitech/CMakeFiles/robot_cleaner_node_v2.dir/build.make gaitech/CMakeFiles/robot_cleaner_node_v2.dir/src/turtlesim/cleaning_app/robot_cleaner_v2.cpp.s
 .PHONY : src/turtlesim/cleaning_app/robot_cleaner_v2.cpp.s
 
+src/turtlesim/cleaning_app/robot_cleaner_v4.o: src/turtlesim/cleaning_app/robot_cleaner_v4.cpp.o
+
+.PHONY : src/turtlesim/cleaning_app/robot_cleaner_v4.o
+
+# target to build an object file
+src/turtlesim/cleaning_app/robot_cleaner_v4.cpp.o:
+	cd /home/max/gaitech_ws/build && $(MAKE) -f gaitech/CMakeFiles/robot_cleaner_node_v4.dir/build.make gaitech/CMakeFiles/robot_cleaner_node_v4.dir/src/turtlesim/cleaning_app/robot_cleaner_v4.cpp.o
+.PHONY : src/turtlesim/cleaning_app/robot_cleaner_v4.cpp.o
+
+src/turtlesim/cleaning_app/robot_cleaner_v4.i: src/turtlesim/cleaning_app/robot_cleaner_v4.cpp.i
+
+.PHONY : src/turtlesim/cleaning_app/robot_cleaner_v4.i
+
+# target to preprocess a source file
+src/turtlesim/cleaning_app/robot_cleaner_v4.cpp.i:
+	cd /home/max/gaitech_ws/build && $(MAKE) -f gaitech/CMakeFiles/robot_cleaner_node_v4.dir/build.make gaitech/CMakeFiles/robot_cleaner_node_v4.dir/src/turtlesim/cleaning_app/robot_cleaner_v4.cpp.i
+.PHONY : src/turtlesim/cleaning_app/robot_cleaner_v4.cpp.i
+
+src/turtlesim/cleaning_app/robot_cleaner_v4.s: src/turtlesim/cleaning_app/robot_cleaner_v4.cpp.s
+
+.PHONY : src/turtlesim/cleaning_app/robot_cleaner_v4.s
+
+# target to generate assembly for a file
+src/turtlesim/cleaning_app/robot_cleaner_v4.cpp.s:
+	cd /home/max/gaitech_ws/build && $(MAKE) -f gaitech/CMakeFiles/robot_cleaner_node_v4.dir/build.make gaitech/CMakeFiles/robot_cleaner_node_v4.dir/src/turtlesim/cleaning_app/robot_cleaner_v4.cpp.s
+.PHONY : src/turtlesim/cleaning_app/robot_cleaner_v4.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1174,6 +1216,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... robot_cleaner_node_v4"
 	@echo "... install/local"
 	@echo "... robot_cleaner_node_v2"
 	@echo "... free_space_navigation_node"
@@ -1254,6 +1297,9 @@ help:
 	@echo "... src/turtlesim/cleaning_app/robot_cleaner_v2.o"
 	@echo "... src/turtlesim/cleaning_app/robot_cleaner_v2.i"
 	@echo "... src/turtlesim/cleaning_app/robot_cleaner_v2.s"
+	@echo "... src/turtlesim/cleaning_app/robot_cleaner_v4.o"
+	@echo "... src/turtlesim/cleaning_app/robot_cleaner_v4.i"
+	@echo "... src/turtlesim/cleaning_app/robot_cleaner_v4.s"
 .PHONY : help
 
 

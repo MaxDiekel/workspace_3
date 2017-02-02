@@ -212,6 +212,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/doxygen.dir/DependInfo.cmake"
   "gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
   "gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "gaitech/CMakeFiles/robot_cleaner_node_v4.dir/DependInfo.cmake"
   "gaitech/CMakeFiles/robot_cleaner_node_v2.dir/DependInfo.cmake"
   "gaitech/CMakeFiles/free_space_navigation_node.dir/DependInfo.cmake"
   "gaitech/CMakeFiles/talker_node.dir/DependInfo.cmake"
